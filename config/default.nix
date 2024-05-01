@@ -3,6 +3,7 @@
     ./cmp.nix
     ./keymaps.nix
     ./harpoon.nix
+    ./luasnip.nix
     ./lsp.nix
     ./noice.nix
     ./none-ls.nix

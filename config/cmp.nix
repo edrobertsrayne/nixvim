@@ -1,6 +1,5 @@
 {
   plugins = {
-    luasnip = {enable = true;};
     cmp-emoji = {enable = true;};
     cmp = {
       enable = true;
