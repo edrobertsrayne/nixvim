@@ -27,7 +27,8 @@
     trouble = {enable = true;};
     # lsp-lines.enable = true;
 
-    /* TODO: Fix error on aarch64 machines
+    /*
+       TODO: Fix error on aarch64 machines
     alpha = {
       enable = true;
       theme = "startify";
