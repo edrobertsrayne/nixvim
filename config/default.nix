@@ -9,6 +9,7 @@
     ./opts.nix
     ./telescope.nix
     ./treesitter.nix
+    ./trouble.nix
     ./which-key.nix
   ];
 
@@ -24,7 +25,6 @@
     #nvim-autopairs.enable = true;
     #indent-blankline.enable = true;
     neo-tree = {enable = true;};
-    trouble = {enable = true;};
     # lsp-lines.enable = true;
 
     /*
