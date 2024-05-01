@@ -13,6 +13,7 @@
     ./treesitter.nix
     ./trouble.nix
     ./which-key.nix
+    ./ultimate-autopair.nix
   ];
 
   colorschemes.catppuccin.enable = true;
