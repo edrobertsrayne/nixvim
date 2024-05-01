@@ -21,7 +21,7 @@
     tmux-navigator.enable = true;
     nix.enable = true;
     nvim-colorizer.enable = true;
-    nvim-autopairs.enable = true;
+    #nvim-autopairs.enable = true;
     #indent-blankline.enable = true;
     neo-tree = {enable = true;};
     trouble = {enable = true;};
