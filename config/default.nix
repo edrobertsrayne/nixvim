@@ -10,6 +10,7 @@
     ./oil.nix
     ./opts.nix
     ./telescope.nix
+    ./toggleterm.nix
     ./treesitter.nix
     ./trouble.nix
     ./which-key.nix
