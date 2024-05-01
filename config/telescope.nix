@@ -150,6 +150,23 @@
         desc = "File browser";
       };
     }
+    {
+      mode = "n";
+      key = "<leader>st";
+      action = "<cmd>TodoTelescope<cr>";
+      options = {
+        silent = true;
+        desc = "Todo (Telescope)";
+      };
+    }
+    {
+      mode = "n";
+      key = "<leader>fp";
+      action = "<cmd>Telescope projects<CR>";
+      options = {
+        desc = "Projects";
+      };
+    }
   ];
   extraConfigLua = ''
     require("telescope").setup{
