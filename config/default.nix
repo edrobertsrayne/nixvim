@@ -2,6 +2,7 @@
   imports = [
     ./cmp.nix
     ./keymaps.nix
+    ./harpoon.nix
     ./lsp.nix
     ./noice.nix
     ./none-ls.nix
