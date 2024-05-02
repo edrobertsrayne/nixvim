@@ -1,6 +1,6 @@
 {
   imports = [
-./keymaps.nix
+    ./keymaps.nix
 
     ./bufferlines/bufferline.nix
     ./completion/cmp.nix
@@ -14,6 +14,7 @@
     ./telescope
     ./treesitter
     ./ui/noice.nix
+    ./ui/alpha.nix
     ./utils/oil.nix
     ./utils/nix.nix
     ./utils/mini.nix
