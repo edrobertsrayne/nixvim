@@ -13,6 +13,7 @@
     ./statuslines/lualine.nix
     ./telescope
     ./treesitter
+    ./ui/nui.nix
     ./ui/noice.nix
     ./ui/alpha.nix
     ./utils/oil.nix
