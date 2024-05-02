@@ -1,11 +1,14 @@
 {
   imports = [
+./keymaps.nix
+
     ./bufferlines/bufferline.nix
     ./completion/cmp.nix
     ./filetrees/neo-tree.nix
     ./git/lazygit.nix
     ./git/gitsigns.nix
     ./lsp
+    ./none-ls
     ./snippets/luasnip.nix
     ./statuslines/lualine.nix
     ./telescope
@@ -27,17 +30,4 @@
   colorschemes.catppuccin.enable = true;
 
   globals.mapleader = " ";
-  plugins = {
-    #nvim-autopairs.enable = true;
-    #indent-blankline.enable = true;
-    # lsp-lines.enable = true;
-
-    /*
-       TODO: Fix error on aarch64 machines
-    alpha = {
-      enable = true;
-      theme = "startify";
-    };
-    */
-  };
 }
