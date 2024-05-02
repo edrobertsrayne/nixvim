@@ -22,4 +22,26 @@
       yaml = ["yamllint" "yamlfmt"];
     };
   };
+
+  keymaps = [
+   {
+      mode = "n";
+      key = "<leader>cf";
+      action = "<cmd>lua require('conform').format()<cr>";
+      options = {
+        silent = true;
+        desc = "Format Buffer";
+      };
+    }
+
+    {
+      mode = "v";
+      key = "<leader>cF";
+      action = "<cmd>lua require('conform').format()<cr>";
+      options = {
+        silent = true;
+        desc = "Format Lines";
+      };
+    }
+  ];
 }
