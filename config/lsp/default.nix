@@ -1,4 +1,5 @@
 {
+  imports = [./conform.nix ./trouble.nix];
   plugins = {
     lsp-format = {enable = true;};
     lsp = {
