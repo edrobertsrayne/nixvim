@@ -15,7 +15,8 @@
     ./treesitter
     ./ui/nui.nix
     ./ui/noice.nix
-    ./ui/alpha.nix
+    #    ./ui/alpha.nix
+    ./ui/mini-starter.nix
     ./utils/oil.nix
     ./utils/nix.nix
     ./utils/mini.nix
