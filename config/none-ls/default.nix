@@ -13,6 +13,7 @@
         yamllint.enable = true;
         cmake_lint.enable = true;
         cppcheck.enable = true;
+        #cpplint.enable = true;
       };
       formatting = {
         alejandra.enable = true;
@@ -35,8 +36,9 @@
         };
         stylua.enable = true;
         yamlfmt.enable = true;
-        cmake_format.enable = true;
         astyle.enable = true;
+        cmake_format.enable = true;
+        clang_format.enable = true;
       };
     };
   };

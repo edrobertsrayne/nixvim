@@ -1,4 +1,4 @@
-{
+{pkgs, ...}: {
   imports = [./conform.nix ./trouble.nix];
   plugins = {
     lsp-format = {enable = true;};
@@ -14,7 +14,20 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         yamlls = {enable = true;};
-        ccls = {enable = true;};
+        #ccls = {enable = true;};
+        clangd = {
+          enable = true;
+          cmd = [
+            "${pkgs.clang-tools}/bin/clangd"
+            "--offset-encoding=utf-16"
+            "--background-index"
+            "--clang-tidy"
+            "--header-insertion=iwyu"
+            "--completion-style=detailed"
+            "--function-arg-placeholders"
+            "--fallback-style=llvm"
+          ];
+        };
       };
       keymaps = {
         silent = true;

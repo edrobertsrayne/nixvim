@@ -20,7 +20,7 @@
       markdown = [["prettierd" "prettier"]];
       rust = ["rustfmt"];
       yaml = ["yamllint" "yamlfmt"];
-      c = ["clang-format"];
+      c = [["astyle" "clang-format"]];
     };
   };
 
