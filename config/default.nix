@@ -31,6 +31,6 @@
   ];
 
   colorschemes.catppuccin.enable = true;
-
+  enableMan = false;
   globals.mapleader = " ";
 }
