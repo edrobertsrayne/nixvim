@@ -14,6 +14,7 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         yamlls = {enable = true;};
+        ccls = {enable = true;};
       };
       keymaps = {
         silent = true;

@@ -11,6 +11,8 @@
       diagnostics = {
         statix.enable = true;
         yamllint.enable = true;
+        cmake_lint.enable = true;
+        cppcheck.enable = true;
       };
       formatting = {
         alejandra.enable = true;
@@ -33,6 +35,8 @@
         };
         stylua.enable = true;
         yamlfmt.enable = true;
+        cmake_format.enable = true;
+        astyle.enable = true;
       };
     };
   };

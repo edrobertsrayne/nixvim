@@ -20,11 +20,12 @@
       markdown = [["prettierd" "prettier"]];
       rust = ["rustfmt"];
       yaml = ["yamllint" "yamlfmt"];
+      c = ["clang-format"];
     };
   };
 
   keymaps = [
-   {
+    {
       mode = "n";
       key = "<leader>cf";
       action = "<cmd>lua require('conform').format()<cr>";
