@@ -22,7 +22,7 @@
     ./utils/mini.nix
     ./utils/flash.nix
     ./utils/notify.nix
-    ./utils/texpresso.nix
+    #./utils/texpresso.nix
     ./utils/which-key.nix
     ./utils/illuminate.nix
     ./utils/persistence.nix
