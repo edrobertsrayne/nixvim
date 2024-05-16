@@ -2,7 +2,7 @@
   plugins.mini = {
     enable = true;
     modules = {
-      animate = {};
+      #animate = {};
       ai = {};
       basics = {
         options = {
